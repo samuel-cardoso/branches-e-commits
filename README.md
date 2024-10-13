@@ -3,7 +3,7 @@
 Escreve-los sempre em inglês.
 
 ## 📝 Estrutura das branches e commits
-A branche deve ser constituída com as seguintes partes:
+A branch deve ser constituída com as seguintes partes:
 
 ```
 feat-satisfaction-form-NP-73
@@ -26,7 +26,13 @@ feat: create field name
 
 As branches e commits são prefixados com um tipo, que consiste em um substantivo.
 
-Os mais usados são:
+Os substantivos utilizados costumam ser na forma nominal (ou seja, um substantivo simples). Eles não são utilizados em formas de verbos, como infinitivo ou imperativo. Aqui estão algumas explicações:
+
+- **Substantivos no infinitivo:** O infinitivo é a forma base dos verbos em português, como "fazer", "correr", etc. No contexto de branches e commits, os substantivos não são usados nesse formato. Em vez disso, você usaria uma palavra que descreve a ação, mas não em forma verbal.
+
+- **Substantivos simples:** Os termos como "feature", "fix", "refactor", "docs", "test" e "chore" são substantivos que descrevem a natureza da alteração e são usados como rótulos. Eles não têm conjugação, sendo considerados substantivos simples.
+
+Os prefixos mais usados são:
 
 1. **feat (Feature)**  
    Significado: É utilizado para indicar que a branch está relacionada ao desenvolvimento de uma nova funcionalidade ou recurso dentro do sistema.  
@@ -58,11 +64,11 @@ Os mais usados são:
 
 8. **perf (Performance)**  
    Significado: Indica uma branch destinada a melhorar a performance do sistema, como otimização de tempo de execução, redução de consumo de memória, etc.  
-   Exemplo: `perf/melhoria-renderizacao` — Melhoria na performance de renderização de componentes.
+   Exemplo: `perf-melhoria-renderizacao` — Melhoria na performance de renderização de componentes.
 
 9. **ci (Integração Contínua)**  
    Significado: Usado para modificações relacionadas à configuração ou ajuste de integração contínua (CI), como pipelines de build, testes automáticos, etc.  
-   Exemplo: `ci/ajustar-pipeline` — Ajustes na configuração do pipeline de integração contínua.
+   Exemplo: `ci-ajustar-pipeline` — Ajustes na configuração do pipeline de integração contínua.
 
 10. **build (Sistema de build)**  
     Significado: Refere-se a mudanças no sistema de build ou nas ferramentas de compilação, como configurações de Webpack, Gulp, ou dependências de build.  
@@ -82,7 +88,7 @@ O conteúdo (no Conventional Commits está como "body", mas adaptei de uma forma
 
 ## 🔗 Sufixo
 
-O sufixo é a parte da branche que corresponde ao nome do projeto (sigla) e ao número da tarefa da ferramenta de gerenciamento de projetos. (trello, slack...)
+O sufixo é a parte da branch que corresponde ao nome do projeto (sigla) e ao número da tarefa da ferramenta de gerenciamento de projetos. (trello, slack...)
 
 ## ⚠️ Importante.
 
